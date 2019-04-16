@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class GetIpAddress {
+    public static void main(String[] args) {
+        String name, gender;
+        int age;
+        float weight;
+        
+        Scanner SC = new Scanner(System.in);
+        
+        System.out.println("Enter name: ");
+        name = SC.nextLine();
+        
+        System.out.println("Enter Gender (Male/Female): ");
+        gender = SC.next();
+        
+        System.out.println("Enter age: ");
+        age=SC.nextInt();
+        
+        System.out.println("Enter weight: ");
+        weight=SC.nextFloat();
+        
+        System.out.println("Name: " + name);
+        System.out.println("Gender: " + gender);
+        System.out.println("Age: " + age);
+        System.out.println("Weight: " + weight);
+    }
+}
